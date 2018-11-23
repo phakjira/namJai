@@ -16,23 +16,21 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/iv"
-            android:layout_width="400dp"
-            android:layout_height="400dp"
+            android:id="@+id/logo"
+            android:layout_width="344dp"
+            android:layout_height="266dp"
             android:layout_gravity="center"
             android:paddingTop="50dp"
-            android:src="@drawable/logo" />
+            android:src="@drawable/reallogo" />
 
-        <TextView
-            android:id="@+id/nam"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageView
+            android:id="@+id/slogan"
+            android:layout_width="193dp"
+            android:layout_height="210dp"
             android:layout_gravity="center"
             android:paddingTop="50dp"
-            android:text="Nam ใจน้องพี่สีชมพู่"
-            android:textColor="@color/colorPrimary"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:src="@drawable/slogan" />
+
 
 
     </LinearLayout>

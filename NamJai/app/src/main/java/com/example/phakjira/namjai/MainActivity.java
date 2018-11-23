@@ -12,18 +12,18 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private static int SPLASH_TIME_OUT = 4000;
-    private TextView NamJai;
-    private ImageView iv;
+    private ImageView logo;
+    private ImageView slogan;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        NamJai = (TextView) findViewById(R.id.nam);
-        iv = (ImageView) findViewById(R.id.iv);
+        logo = (ImageView) findViewById(R.id.logo);
+        slogan = (ImageView) findViewById(R.id.slogan);
         Animation myanim = AnimationUtils.loadAnimation(this,R.anim.mytransition);
-        NamJai.startAnimation(myanim);
-        iv.startAnimation(myanim);
+        logo.startAnimation(myanim);
+        slogan.startAnimation(myanim);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run(){
