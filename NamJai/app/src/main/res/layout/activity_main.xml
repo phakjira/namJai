@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:paddingTop="50dp"
-            android:text="Nam Jai น้องพี่สีชมพู <3"
+            android:text="Nam ใจน้องพี่สีชมพู่"
             android:textColor="@color/colorPrimary"
             android:textSize="20sp"
             android:textStyle="bold" />

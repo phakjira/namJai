@@ -31,5 +31,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/buttonNewuser"
+        android:layout_width="115dp"
+        android:layout_height="52dp"
+        android:text="New User"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="101dp"
+        android:layout_height="53dp"
+        android:background="@color/colorAccent"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        tools:background="@color/colorAccent"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="236dp" />
+>>>>>>> 614089ac1aef65e9c42c575426212a8d64dea958
 
 </android.support.constraint.ConstraintLayout>
